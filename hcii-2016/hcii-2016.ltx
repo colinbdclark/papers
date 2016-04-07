@@ -39,7 +39,7 @@ Since 2007, the Fluid Project has been developing an integrated set of inclusive
 Accessibility, inclusive design, co-design, Fluid Project, development tools, assistive technology, design methods, user creativity
 
 \section {Introduction}
-We begin by briefly surveying several established design methods, exploring their strengths, weaknesses, and relations to inclusive design. In particular, we examine the degree to which these methods can support diverse participation by users during the design process and beyond. Next, we describe the community-grown design methods employed by Fluid, which blend established techniques with new inclusive methods. The challenges and opportunities of designing within an open source community are discussed; we provide an overview of common open source governance and decision-making processes, examining some of the social and technological mismatches between today's developer-oriented open source practices and our goal of an inclusive, participatory community. We end by discussing how inclusive design and collaboration can be supported by technologies such as Fluid's Infusion framework, which provides the foundation for what we call "user-continued design," where software artifacts can be changed and redesigned even after the initial design process has been completed.
+We begin by briefly surveying several established design methods, exploring their strengths, weaknesses, and relations to inclusive design. In particular, we examine the degree to which these methods can support diverse participation by users during the design process and beyond. Next, we describe the community-grown design methods employed by Fluid, which blend established techniques with new inclusive methods. The challenges and opportunities of designing within an open source community are discussed; we provide an overview of common open source governance and decision-making processes, examining some of the social and technological mismatches between today's developer-oriented open source practices and our goal of an inclusive, participatory community. We end by discussing how inclusive design and collaboration can be supported by technologies such as Fluid's Infusion framework, which provides the foundation for what we call ``user-continued design,'' where software artifacts can be changed and redesigned even after the initial design process has been completed.
 
 \section {Design Methods}
 \subsection {Interaction Design}
@@ -62,7 +62,7 @@ Participatory design, in contrast to many interaction design methods, offers the
 
 \item Participatory design methods do not explicitly provide a means for ongoing community ``stewardship'' or ``curation'' of the software product after the initial participatory methods have been completed
 \item Additional technological tools are needed in order support ongoing or user-continued design, including the ability for individuals to customize, adapt, and modify a ``finished'' software product
-\item Most user-centered or participatory methods do not fully support the participation of ``extreme users" --- those at the margins or who have particular needs that cannot be easily accommodated by traditional user research or workshops \cite{pullin2007}
+\item Most user-centered or participatory methods do not fully support the participation of ``extreme users'' --- those at the margins or who have particular needs that cannot be easily accommodated by traditional user research or workshops \cite{pullin2007}
 
 \end{enumerate}
 
@@ -99,13 +99,13 @@ When paired with the other tools, particularly User States and Contexts and UX W
     \label{fig:userstatesandcontexts}
 \end{figure}
 
-These diagrams can be considered a use-modelling tool for evaluating the ability of a design to be perceived and operated by users in a wide range of states and contexts. A user states and context map can be used to demonstrate the range of needs of users that are represented by a particular persona, or those of a collection of personas. The map can also be used to consider and demonstrate how a user's state and context can change in the short term (e.g.\ on a daily basis) or the long term (e.g.\ over a lifetime). Each ``constellation" in a User States and Contexts diagram shows the needs of a particular user in a specific context, environment, or situation. These diagrams can be layered on top of each other to plot how needs change across different contexts. Similarly, diagrams of different users can be clustered in order to analyze relationships amongst users. This helps to reveal patterns and commonalities that might not otherwise be obvious when using personas alone, as well as serving to highlight unique needs, interesting outliers, and edge cases that may suggest new design opportunities and features.
+These diagrams can be considered a use-modelling tool for evaluating the ability of a design to be perceived and operated by users in a wide range of states and contexts. A user states and context map can be used to demonstrate the range of needs of users that are represented by a particular persona, or those of a collection of personas. The map can also be used to consider and demonstrate how a user's state and context can change in the short term (e.g.\ on a daily basis) or the long term (e.g.\ over a lifetime). Each ``constellation'' in a User States and Contexts diagram shows the needs of a particular user in a specific context, environment, or situation. These diagrams can be layered on top of each other to plot how needs change across different contexts. Similarly, diagrams of different users can be clustered in order to analyze relationships amongst users. This helps to reveal patterns and commonalities that might not otherwise be obvious when using personas alone, as well as serving to highlight unique needs, interesting outliers, and edge cases that may suggest new design opportunities and features.
 
 \subsubsection{Community Design Crits} bring together designers, developers, and users to discuss and critique design artifacts, including ideas, scenarios, mockups, and in-development software.
 
 Design crits provide a space, both locally and remotely via the use of video conferencing tools, for informal feedback and input to be gathered on a regular basis from a group of people with differing perspectives and differing stakes in the design. Gathering feedback in this way allows everyone a chance to participate in the design process from the start and in so doing reduces the typical design/develop/test cycle time.
 
-\subsubsection{Open, Transparent Sharing} of design artifacts and discussion on mailing lists and other community forums based on ``lazy consensus" governance principles \cite{capra2008}. Lazy consensus is a form of community-based decision-making that allows participants to make design and technical decisions freely based on their own personal judgement, trusting that, by virtue of the fact they are working openly and visibly, others will be able to speak up, contribute, or ask questions if issues arise.
+\subsubsection{Open, Transparent Sharing} of design artifacts and discussion on mailing lists and other community forums based on ``lazy consensus'' governance principles \cite{capra2008}. Lazy consensus is a form of community-based decision-making that allows participants to make design and technical decisions freely based on their own personal judgement, trusting that, by virtue of the fact they are working openly and visibly, others will be able to speak up, contribute, or ask questions if issues arise.
 
 When working transparently, diverse participation in the design process is more likely, because those who wish to get involved and who have access to the content and tools can contribute. Accessible and open communication tools can provide both a means of alerting the community to a group discussion or other activity, as well as a means of distributing collaborative artifacts including meeting minutes, design mockups, and other relevant information.
 
@@ -119,7 +119,7 @@ Technological tools to support such open and interactive design processes are, i
 
 \subsection{Distributed Version Control for Software Developers}
 
-Distributed version control systems gradually took over from traditional centralized version control systems during the 2000s. Distributed versioning offers a more democratic, ``peer to peer" model for managing community assets, rather than the previous authority-based model whereby the definitive version of a community asset was stored in a nominated central repository. The most widely-used system of this kind currently is git\cite{git}, designed by Linux architect Linus Torvalds in response to problems he faced managing a very large source code base of millions of lines of code shared amongst thousands of contributors. Especially as hosted by the hugely popular infrastructure site GitHub, git offers important new affordances for software developers, beyond those directly implied by adopting an open source contribution model.
+Distributed version control systems gradually took over from traditional centralized version control systems during the 2000s. Distributed versioning offers a more democratic, ``peer to peer'' model for managing community assets, rather than the previous authority-based model whereby the definitive version of a community asset was stored in a nominated central repository. The most widely-used system of this kind currently is git\cite{git}, designed by Linux architect Linus Torvalds in response to problems he faced managing a very large source code base of millions of lines of code shared amongst thousands of contributors. Especially as hosted by the hugely popular infrastructure site GitHub, git offers important new affordances for software developers, beyond those directly implied by adopting an open source contribution model.
 
 Amongst the most interesting for our purposes is GitHub's {\it review model}. This allows a suggested contribution to a project to enter a rich interactive lifecycle centred around a git artifact known as a {\it pull request} --- a request by the contributor that their work be accepted (pulled) into the community's shared project. GitHub's pull request review interface provides the following facilities to contributors:
 
@@ -133,7 +133,7 @@ It is worth noting that this pull request workflow is particularly a facility of
 
 \subsection{Nothing for Designers}
 
-Nothing similar to GitHub's pull request user interface and workflow currently exists to facilitate contributions to open source culture from non-developers. Because of this, open design teams are often left to devise ad hoc processes, such as exchanging designs as "rendered" image files (e.g.\ bitmaps and PDFs) using Dropbox\cite{dropbox} or other cloud file sharing systems, attachments to wiki pages, email, and so on. As a result, comments and discussion are separated from the design artifacts and occur in parallel channels such as emails, IRC chats and Skype messages. There is no easy way to interleave comments, suggestions, and critiques with a design "source" file, and it can be difficult to publicly archive and preserve such discussions for future reference. This complicates lazy consensus and collaborative governance for design, and makes it difficult to establish stable, shared archives of design knowledge within a community to help bring newcomers on board.
+Nothing similar to GitHub's pull request user interface and workflow currently exists to facilitate contributions to open source culture from non-developers. Because of this, open design teams are often left to devise ad hoc processes, such as exchanging designs as ``rendered'' image files (e.g.\ bitmaps and PDFs) using Dropbox\cite{dropbox} or other cloud file sharing systems, attachments to wiki pages, email, and so on. As a result, comments and discussion are separated from the design artifacts and occur in parallel channels such as emails, IRC chats and Skype messages. There is no easy way to interleave comments, suggestions, and critiques with a design ``source'' file, and it can be difficult to publicly archive and preserve such discussions for future reference. This complicates lazy consensus and collaborative governance for design, and makes it difficult to establish stable, shared archives of design knowledge within a community to help bring newcomers on board.
 
 Additionally, none of the design tools most commonly in use today have accessibility features to facilitate contributions from individuals with disabilities, such as the ability to attach descriptive text narratives to wireframes and mockup images. This huge discrepancy between the quality of tools provided to technical as opposed to design contributors further erodes the ideology of a ``meritocracy'' in open source communities.
 
@@ -143,7 +143,7 @@ We dream that the same community affordances can be extended to all kinds of con
 
 \section{Building an Inclusive Tool Chain}
 
-The primary aim of Fluid's Infusion framework is to provide the foundation for such an inclusive tool chain, including supporting "user-continued" design. The needs of inclusion and collaboration both induce similar kinds of requirements on software and content creation processes.
+The primary aim of Fluid's Infusion framework is to provide the foundation for such an inclusive tool chain, including supporting ``user-continued'' design. The needs of inclusion and collaboration both induce similar kinds of requirements on software and content creation processes.
 
 \subsection{Working with Design Landmarks}
 
@@ -176,80 +176,80 @@ The design processes and technologies we describe here aim to support new forms 
 \raggedright
 
 \bibitem{basman2015}
-Basman, Antranig, Colin Clark, and Clayton Lewis. ``Harmonious Authorship from Different Representations." {\it Psychology of Programming Interest Group Annual Conference 2015}. Web. \url{http://www.ppig.org/sites/default/files/2015-PPIG-26th-Basman.pdf}
+Basman, Antranig, Colin Clark, and Clayton Lewis. ``Harmonious Authorship from Different Representations.'' {\it Psychology of Programming Interest Group Annual Conference 2015}. Web. \url{http://www.ppig.org/sites/default/files/2015-PPIG-26th-Basman.pdf}
 
 \bibitem{beyer1997}
 Beyer, Hugh and Karen Holtzblatt. {\it Contextual Design: Defining Customer-Centered Systems}. San Francisco: Morgan Kaufmann Publishers, 1998. Print.
 
 \bibitem{capra2008}
-Capra, Eugenio and Anthony I. Wasserman. ``A Framework for Evaluating Managerial Styles in Open Source Projects." {\it Open Source Development, Communities and Quality}. Spec. Issue of {\it IFIP International Federation for Information Processing} 27 (2008): 1-14. Print.
+Capra, Eugenio and Anthony I. Wasserman. ``A Framework for Evaluating Managerial Styles in Open Source Projects.'' {\it Open Source Development, Communities and Quality}. Spec. Issue of {\it IFIP International Federation for Information Processing} 27 (2008): 1-14. Print.
 
 \bibitem{prefs-framework}
-Clark, Colin. ``Preferences Framework Overview." {\it GPII Wiki}, 27 September 2013. Web. \url{http://wiki.gpii.net/index.php/Preferences_Framework_Overview}
+Clark, Colin. ``Preferences Framework Overview.'' {\it GPII Wiki}, 27 September 2013. Web. \url{http://wiki.gpii.net/index.php/Preferences_Framework_Overview}
 
 \bibitem{cooper2007}
 Cooper, Alan and Robert, Reimann and Dave Cronin. {\it About Face 3: The Essentials of Interaction Design}. Indianapolis: Wiley, 2007. Print. pp. 80.
 
 \bibitem{darcshub}
-``Darcs Hub." Web. \url{http://hub.darcs.net/}
+``Darcs Hub.'' Web. \url{http://hub.darcs.net/}
 
 \bibitem{dropbox}
-``Dropbox (service)." {\it Wikipedia}. Web. \url{https://en.wikipedia.org/wiki/Dropbox_(service)}
+``Dropbox (service).'' {\it Wikipedia}. Web. \url{https://en.wikipedia.org/wiki/Dropbox_(service)}
 
 \bibitem{emke2015}
-Emke, Coraline Ada. ``The Dehumanizing Myth of the Meritocracy". {\it Model View Culture} 21 (2015). Web.
+Emke, Coraline Ada. ``The Dehumanizing Myth of the Meritocracy''. {\it Model View Culture} 21 (2015). Web.
 \url{https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy}
 
-\bibitem{gimp} ``GNU Image Manipulation Program." Web. \url{https://www.gimp.org/}
+\bibitem{gimp} ``GNU Image Manipulation Program.'' Web. \url{https://www.gimp.org/}
 
 \bibitem{git}
-``Git." Web. \url{https://git-scm.com/}
+``Git.'' Web. \url{https://git-scm.com/}
 
 \bibitem{github}
-``Github". {\it Wikipedia}. Web. \url{https://en.wikipedia.org/wiki/GitHub}
+``Github''. {\it Wikipedia}. Web. \url{https://en.wikipedia.org/wiki/GitHub}
 
 \bibitem{gpii-nexus}
-Clark, Colin, Antranig Basman, and Simon Bates. ``The Nexus". {\it GPII Wiki}, 10 March 2016. Web.  \url{https://wiki.gpii.net/w/The_Nexus}
+Clark, Colin, Antranig Basman, and Simon Bates. ``The Nexus''. {\it GPII Wiki}, 10 March 2016. Web.  \url{https://wiki.gpii.net/w/The_Nexus}
 
 \bibitem{IDEO}
-IDEO. ``Methods." {\it Design Kit}. Web. \url{http://www.designkit.org/methods}
+IDEO. ``Methods.'' {\it Design Kit}. Web. \url{http://www.designkit.org/methods}
 
 \bibitem{ildh}
 {\it The Inclusive Learning Design Handbook}. The FLOE Project. Web. \url{http://handbook.floeproject.org/}
 
 \bibitem{fluid-infusion}
-``Infusion." {\it Fluid}. Web.
+``Infusion.'' {\it Fluid}. Web.
 \url{http://fluidproject.org/products/infusion/}
 
 \bibitem{fluid-design-handbook}
-``The Fluid Design Handbook". {\it Fluid Project Wiki}. Web.  \url{https://wiki.fluidproject.org/display/fluid/Design+Handbook}
+``The Fluid Design Handbook''. {\it Fluid Project Wiki}. Web.  \url{https://wiki.fluidproject.org/display/fluid/Design+Handbook}
 
 \bibitem{mace97}
 Mace, R. et al. {\it The Principles Of Universal Design}. Web. \url{https://www.ncsu.edu/ncsu/design/cud/about_ud/udprinciplestext.htm}
 
 \bibitem{css}
-``Getting Started with CSS Selectors." {\it Mozilla Developer Network}. Web.  \url{https://developer.mozilla.org/en/docs/Web/Guide/CSS/Getting_started/Selectors}
+``Getting Started with CSS Selectors.'' {\it Mozilla Developer Network}. Web.  \url{https://developer.mozilla.org/en/docs/Web/Guide/CSS/Getting_started/Selectors}
 
 \bibitem{neilsen1995}
-Neilsen, Jakob. ``10 Usability Heuristics for User Interface Design." {\it Neilsen Norman Group}. Web. \url{https://www.nngroup.com/articles/ten-usability-heuristics/}
+Neilsen, Jakob. ``10 Usability Heuristics for User Interface Design.'' {\it Neilsen Norman Group}. Web. \url{https://www.nngroup.com/articles/ten-usability-heuristics/}
 
 \bibitem{pullin2007}
-Pullin, Graham, and Alan Newell. ``Focussing on Extra-ordinary Users." {\it Universal Access in Human Computer Interaction}. Coping with Diversity. Berlin: Springer, 2007. 253-262. Print.
+Pullin, Graham, and Alan Newell. ``Focussing on Extra-ordinary Users.'' {\it Universal Access in Human Computer Interaction}. Coping with Diversity. Berlin: Springer, 2007. 253-262. Print.
 
 \bibitem{sanders2002}
-Sanders, Elizabeth B.N. ``From User-Centered to Participatory Design Approaches." {\it Design and the Social Sciences}. Ed. Jorge Frascara. London: Taylor and Francis, 2002.
+Sanders, Elizabeth B.N. ``From User-Centered to Participatory Design Approaches.'' {\it Design and the Social Sciences}. Ed. Jorge Frascara. London: Taylor and Francis, 2002.
 
 \bibitem{skibsted2007}
-Skibsted, Jens Martin and Rasmus Bech Hansen. ``User-Led Innovation Can't Create Breakthroughs; Just Ask Apple and Ikea." {\it Fast Company}, March 3, 2007. Web.  \url{http://www.fastcodesign.com/1663220/user-led-innovation-cant-create-breakthroughs-just-ask-apple-and-ikea}
+Skibsted, Jens Martin and Rasmus Bech Hansen. ``User-Led Innovation Can't Create Breakthroughs; Just Ask Apple and Ikea.'' {\it Fast Company}, March 3, 2007. Web.  \url{http://www.fastcodesign.com/1663220/user-led-innovation-cant-create-breakthroughs-just-ask-apple-and-ikea}
 
 \bibitem{treviranus2014}
 Treviranus, Jutta. ``Leveraging the Web as a Platform for Economic Inclusion. {\it Behavioural Sciences and the Law} 32: 94-103 (2014). Print.
 
 \bibitem{vanderheiden2011}
-Vanderheiden, Gregg, and Jutta Treviranus. ``Creating a Global Public Inclusive Infrastructure". {\it Universal Access in Human-Computer Interaction Design for All and eInclusion}. Berlin: Springer, 2011. 517-526. Print.
+Vanderheiden, Gregg, and Jutta Treviranus. ``Creating a Global Public Inclusive Infrastructure''. {\it Universal Access in Human-Computer Interaction Design for All and eInclusion}. Berlin: Springer, 2011. 517-526. Print.
 
 \bibitem{wakkary2007}
-Wakkary, Ron. ``A Participatory Design Understanding of Interaction Design". Science of Design Workshop. {\it CHI}, 2007. Print.
+Wakkary, Ron. ``A Participatory Design Understanding of Interaction Design''. Science of Design Workshop. {\it CHI}, 2007. Print.
 
 \end{thebibliography}
 
